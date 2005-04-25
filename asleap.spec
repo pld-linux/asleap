@@ -4,7 +4,7 @@ Version:	1.4
 Release:	0.1
 License:	GPL v2
 Group:		Applications/System
-Source0:	%{name}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/asleap/%{name}-%{version}.tgz
 # Source0-md5:	805f1e239d9c8b027822aae379eb3a61
 URL:		http://asleap.sourceforge.net/
 BuildRequires:	openssl-devel
