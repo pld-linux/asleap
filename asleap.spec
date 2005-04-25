@@ -1,4 +1,6 @@
+# TODO: optflags
 Summary:	asleap - recovers weak LEAP password
+Summary(pl):	asleap - odtwarzanie s³abych hase³ LEAP
 Name:		asleap
 Version:	1.4
 Release:	0.1
@@ -7,13 +9,16 @@ Group:		Applications/System
 Source0:	http://dl.sourceforge.net/asleap/%{name}-%{version}.tgz
 # Source0-md5:	805f1e239d9c8b027822aae379eb3a61
 URL:		http://asleap.sourceforge.net/
-BuildRequires:	openssl-devel
 BuildRequires:	libpcap-devel
+BuildRequires:	openssl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This tool is released as a proof-of-concept to demonstrate weaknesses
 in the LEAP and PPTP protocols.
+
+%description -l pl
+To narzêdzie s³u¿y do demonstracji s³abo¶ci protoko³ów LEAP i PPTP.
 
 %prep
 %setup -q -n %{name}
@@ -23,7 +28,6 @@ in the LEAP and PPTP protocols.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
 
 install asleap $RPM_BUILD_ROOT%{_bindir}
@@ -35,5 +39,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc FEATURES README THANKS
-
 %attr(755,root,root) %{_bindir}/*
