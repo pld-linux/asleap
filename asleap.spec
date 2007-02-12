@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	asleap - recovers weak LEAP password
-Summary(pl.UTF-8):   asleap - odtwarzanie słabych haseł LEAP
+Summary(pl.UTF-8):	asleap - odtwarzanie słabych haseł LEAP
 Name:		asleap
 Version:	1.4
 Release:	0.1
