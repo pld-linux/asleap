@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	asleap - recovers weak LEAP password
-Summary(pl):	asleap - odtwarzanie s≥abych hase≥ LEAP
+Summary(pl.UTF-8):   asleap - odtwarzanie s≈Çabych hase≈Ç LEAP
 Name:		asleap
 Version:	1.4
 Release:	0.1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This tool is released as a proof-of-concept to demonstrate weaknesses
 in the LEAP and PPTP protocols.
 
-%description -l pl
-To narzÍdzie s≥uøy do demonstracji s≥abo∂ci protoko≥Ûw LEAP i PPTP.
+%description -l pl.UTF-8
+To narzƒôdzie s≈Çu≈ºy do demonstracji s≈Çabo≈õci protoko≈Ç√≥w LEAP i PPTP.
 
 %prep
 %setup -q -n %{name}
